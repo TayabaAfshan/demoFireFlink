@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T10:47:55 IST" name="Default suite" finished-at="2024-01-19T10:48:26 IST" duration-ms="31425">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T10:47:55 IST" name="Default test" finished-at="2024-01-19T10:48:26 IST" duration-ms="31425">
+      <class name="testScript.DeleteContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:47:54 IST" name="configBS" finished-at="2024-01-19T10:47:55 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:47:55 IST" name="configBC" finished-at="2024-01-19T10:47:59 IST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:47:59 IST" name="configBM" finished-at="2024-01-19T10:48:04 IST" duration-ms="4462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="DeleteContactTest1()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:48:04 IST" name="DeleteContactTest1" finished-at="2024-01-19T10:48:23 IST" duration-ms="19776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteContactTest1 -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:48:23 IST" name="configAM" finished-at="2024-01-19T10:48:26 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:48:26 IST" name="configAC" finished-at="2024-01-19T10:48:26 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:testScript.DeleteContactTest@5677323c]" started-at="2024-01-19T10:48:26 IST" name="configAS" finished-at="2024-01-19T10:48:26 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.sql.Connection.close()" because "this.con" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because "this.con" is null
+at genericUtility.DataBaseUtility.closeDB(DataBaseUtility.java:69)
+at genericUtility.BaseUtility.configAS(BaseUtility.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- testScript.DeleteContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
